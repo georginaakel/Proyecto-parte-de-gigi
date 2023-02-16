@@ -14,7 +14,9 @@ public class ProyectoByGigi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Usuario user = new Usuario ("Gigi");
+        user.mostrarNombre();
+        user.Mostrar_Nombre2();
     }
     
 }
